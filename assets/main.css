@@ -49,8 +49,8 @@ h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
-ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
+ul{list-style:square; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
+ul li{list-style:square; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
 sup{
@@ -77,9 +77,9 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
-.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+.banner {position: relative; font-family:'Roboto Slab',serif}
+.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 30px 0 0 0; top: 0px;}
+.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 20px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
 .title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
@@ -91,7 +91,8 @@ table.navigation{width:800px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
-table.sponsors{width:800px;}
+/* table.sponsors{width:800px;} */
+table.sponsors{width:400px;}
 td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%}
 
@@ -104,6 +105,11 @@ td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-hei
 td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
 td.abstract img{display: block; margin: 4px auto 8px auto}
 table.plenary{padding-top: 8px; background: #ffffff;}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
 
 /* Registration and Directions iframes and Images */
 iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
@@ -127,3 +133,43 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     table.footer{font-size:0.33em;}
 }
 
+:root {
+  --color-num: #b2132e;     /* Blue per NUM */
+  --color-scars: #52739e;       /* Rosso per SCARS */
+}
+
+.colored-acronym span {
+  font-weight: bold;
+}
+
+.colored-acronym .num {
+  color: var(--color-num);
+}
+
+.colored-acronym .scars {
+  color: var(--color-scars);
+}
+
+.upper-num {
+  color: var(--color-num);
+  font-weight: bold;
+}
+
+.upper-scars {
+  color: var(--color-scars);
+  font-weight: bold;
+}
+
+p,
+ul.show-bullets,
+ul.show-bullets li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+table.schedule th, table.schedule td {
+  border: 1px solid #333;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: middle;
+}
