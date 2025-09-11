@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <base href="..">
+    <link rel="shortcut icon" type="image/png" href="assets/icon.jpg"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
+    </script>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+    <title>NUM-SCARS 2026 | SIG 55</title>
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="assets/banner.jpg" alt="Conference Template Banner">
+        <div class="top-left">
+            <span class="title1">NUM</span>-<span class="title2">SCARS</span> <span class="year">workshop</span>
+        </div>
+        <div class="bottom-right">
+            22nd-23rd January, 2026 <br> CWI, Amsterdam, The Netherlands
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a title="Conference Home Page" href=".">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Register for the Conference" href="registration">Registration</a>
+            </td>
+            <td class="navigation">
+                <a class="current" title="Conference Program" href="program">Program</a> 
+            </td>
+            <td class="navigation">
+                <a title="Directions to the Conference" href="directions">Venue</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Flyer" href="flyer">Flyer</a>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Preliminary Conference Program (updated 11/9/25)</h2>
+
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8" />
+	<title>Conference Schedule</title>
+	<style>
+	  table.schedule {
+	    width: 100%;
+	    border-collapse: collapse;
+	  }
+	  /* Set specific column widths */
+	  table.schedule colgroup col:nth-child(1),
+	  table.schedule colgroup col:nth-child(4) {
+	    width: 12%;
+	  }
+	  table.schedule colgroup col:nth-child(2),
+	  table.schedule colgroup col:nth-child(5) {
+	    width: 35%;
+	  }
+	  table.schedule colgroup col:nth-child(3) {
+	    width: 6%; /* empty spacer column */
+	  }
+	
+	  table.schedule th, table.schedule td {
+	    border: 1px solid #333;
+	    padding: 10px 12px;
+	    text-align: left;
+	    vertical-align: top;
+	  }
+
+          table.schedule td:nth-child(1),
+          table.schedule td:nth-child(4),
+          table.schedule th:nth-child(1),
+          table.schedule th:nth-child(4) {
+          white-space: nowrap;
+          }
+
+	  table.schedule th {
+	    background-color: #444;
+	    color: white;
+	  }
+	  table.schedule .keynote {
+	    background-color: #d0e7f9;
+	  }
+	  table.schedule .session {
+	    background-color: #d0e7f9;
+	  }
+  	  .session-title {
+	    font-weight: 900 !important;
+	    font-size: 1.15em;
+	    color: #1a73e8;
+/*	    display: block;*/
+	    margin-bottom: 1px;
+	  }
+
+	  table.schedule .coffee {
+	    background-color: #f9f1d0;
+	  }
+	  table.schedule .lunch {
+	    background-color: #f9f1d0;
+	  }
+	  table.schedule .closing {
+	    background-color: #f9f1d0;
+/*	    background-color: #f9e0b0;*/
+	  }
+	  table.schedule .talks {
+	    background-color: #d0f9d8;
+	  }
+	  table.schedule .poster {
+	    background-color: #d0f9d8;
+	  }
+	  table.schedule .discussion {
+	    background-color: #f9d0d0;
+	  }
+	  table.schedule td, table.schedule th {
+	    vertical-align: middle;
+	    text-align: center;
+	    padding: 8px;
+	  }
+	  table.schedule {
+	    border-collapse: collapse;
+	    width: 100%;
+	  }
+	  table.schedule th, table.schedule td {
+	    border: 1px solid #000;
+	  }
+  	</style>
+
+	</head>
+	<body>
+	<table class="schedule">
+	  <thead>
+	    <tr>
+	      <th>Time</th>
+	      <th>Thursday, January 22nd</th>
+	      <th></th>
+	      <th>Time</th>
+	      <th>Friday, January 23rd</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <!-- 9:00-9:45 -->
+	    <tr>
+	      <td>9:00–9:45</td>
+	      <td class="registration">Registration</td>
+	      <td></td>
+	      <td rowspan="6">9:00–10:15</td>
+	      <td rowspan="6" class="session">
+	        <span class="session-title">Open tools and Benchmarking (I/II)</span> <br>
+		3 talks (25 minutes + Q&A) <br>
+	      </td>
+	    </tr>
+	    <!-- 9:45-10:00 -->
+	    <tr>
+	      <td>9:45–10:00</td>
+	      <td class="opening">Opening</td>
+	    </tr>
+	    <!-- 10:00-13:00 -->
+	    <tr>
+	      <td>10:00–10:50</td>
+	      <td class="session"><span class="session-title">Opening lecture</span></td>
+	    </tr>
+	    <tr>
+	      <td>10:50–11:20</td>
+	      <td class="coffee">Coffee break</td>
+	    </tr>
+	    <!-- 10:00-10:40 -->
+	    <tr>
+	      <td rowspan="5">11:20–13:00</td>
+	      <td rowspan="5" class="session">
+		<br><span class="session-title">Advances in Numerical Methods for</span> <br>
+		<span class="session-title">Scale-Resolving Simulations</span><br>
+		4 talks (25 minutes + Q&A) <br>
+	      </td>
+	    </tr>
+	    <!-- 10:40-11:10 -->
+	    <tr>
+	    </tr>
+	    <!-- 11:10-11:35 -->
+	    <tr>
+	    </tr>
+	    <!-- 11:35-12:00 -->
+	    <tr>
+	    </tr>
+	    <!-- 12:00-13:00 -->
+	    <tr>
+	      <td></td>
+	      <td>12:00–13:00</td>
+	      <td class="discussion">Roundtable discussion on</br>open-source / benchmarking</td>
+	    </tr>
+	    <!-- 13:00-14:00 -->
+	    <tr>
+	      <td>13:00–14:00</td>
+	      <td class="lunch">Lunch</td>
+	      <td></td>
+	      <td>13:00–14:00</td>
+	      <td class="closing">Closing and Lunch</td>
+	    </tr>
+	    <!-- 14:00-15:40 -->
+	    <tr>
+	      <td>14:00–15:40</td>
+	      <td class="session">
+                <span class="session-title">Complex geometries and</span> <br>
+                <span class="session-title">Industrial Applications</span><br>
+                4 talks (25 minutes + Q&A) <br>
+	      </td>
+	      <td></td>
+	      <td rowspan="3">14:00–17:00</td>
+	      <td rowspan="3" class="discussion">Roundtable discussion on SIG55<br> future directions, collaborative projects,<br> and growth strategies</td>
+	    </tr>
+	    <!-- 15:40-16:00 -->
+	    <tr>
+	      <td>15:40–16:00</td>
+	      <!--<td class="coffee">Coffee break</td>-->
+	      <td>Coffee break</td>
+	      <td></td>
+	    </tr>
+	    <!-- 16:00-17:00 -->
+	    <tr>
+	      <td>16:00–17:00</td>
+	      <td class="discussion">Roundtable discussion on<br>
+              future perspectives for CFD</td>
+	      <td></td>
+	    </tr>
+	    <!-- 17:00-18:30 -->
+	    <tr>
+	      <td>17:00–18:30</td>
+	      <td class="poster">Poster session</td>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	  </tbody>
+	</table>
+	</body>
+	</html>
+
+</body>
+</html>
+    <footer>
+        &copy; Conference Organizers
+        &nbsp;|&nbsp; Design by <a href="https://github.com/mikepierce">Mike Pierce</a>
+    </footer>
+
+</body
+
+</html>
+
